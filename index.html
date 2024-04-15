@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Exo:ital,wght@0,400;0,600;0,700;1,500&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Tài Liệu </title>
+</head>
+<body>
+     <header>
+        <a href="#" class="logo">Đọc ngay</a>
+        <nav class="navbar">
+            <a class="active" href="index.html" id="home">Trang chủ </a>
+            <a href="list.html">Danh sách </a>
+            <a href="about.html">Về </a>
+    
+            <span><ion-icon class="search-icon" name="search-outline"></ion-icon></span>
+        </nav>
+        <div class="navbar-after">
+            <a href="index.html" >Home</a> 
+            <a href="list.html">List</a>
+            <a href="about.html">About</a>
+            <a href="#" class="header-login-btn">Login</a>
+        </div>
+        <ion-icon class="menu-icon" name="menu-outline"></ion-icon>
+    </header>
+
+    <form action="" class="search-form">
+        <input type="search" class="search-box" placeholder="search here ...">
+        <label for="" class="fas fa-search"></label>
+        <i class="fa fa-times" aria-hidden="true" id="close"></i>
+   </form>
+
+
+
+<form class="login-register">
+    <div class="wrapped"> 
+        <span class="close"><ion-icon name="close-outline"></ion-icon></span>
+        <div class="form-box-login">
+            <div class="box-login">
+                <h2>Login</h2>
+                <form action="">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="text" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></ion-icon></span>
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="renember-forgot">
+                    <label for=""><input type="checkbox">  Renember me</label>
+                    <a href="">Fogot Password</a>
+                </div>
+                <button class="login-btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account </p>
+                    <a href="#" class="register-link">Register</a>
+                </div>
+                </form>
+            </div>
+
+            <div class="box-register">
+                <h2>Registration</h2>
+                <form action="">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <input type="text" required>
+                    <label for="">Username</label>
+                </div>                    
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="text" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></ion-icon></span>
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="renember-forgot">
+                    <label for=""><input type="checkbox">I agree to the terms & conditions</label>
+                </div>
+                <button class="login-btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account </p>
+                    <a href="#" class="login-link">Login</a>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+
+   <!-- xong phan header -->
+
+   <section style="padding: 0; margin: 0; " id="home">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide silde-ani">
+                <div  data-aos="fade-right"
+                data-aos-anchor="#example-anchor"
+                data-aos-duration="1000" class="slide1">
+                    <img  src="image/pic9.jpg" alt="">
+                </div>
+                <img   data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-duration="2000" class="slide2" src="image/evening.jpg" alt="">
+                <div class="slide-wrapp" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <div class="slide">
+                        <div class="content">
+                            <label for="">Latest book</label>
+                            <h1>TÔI THẤY HOA VÀNG TRÊN CỎ XANH </h1>
+                            <p style="color: white; text-align: start;" >"Tôi thấy hoa vàng trên cỏ xanh” là một câu chuyện đầy xúc cảm về quê hương, về gia đình, về thời niên thiếu của mỗi người.</p>
+                            <h4>Tác giả:NGUYỄN NHẬT ÁNH </h4>
+                            <div><button class="read-btn" onclick="window.location.href='https://thuviensach.vn/pdf/viewer.php?id=5c4ddc'">ĐỌC NGAY </button></div>
+                        </div>
+                        <div class="image"><img src="https://salt.tikicdn.com/cache/750x750/ts/product/f6/7d/b1/f29d19e456281eeb1195dce7e4f09c46.png.webp" alt="Sách Giỏ Trái Cây"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide silde-ani">
+                <div  data-aos="fade-right"
+                data-aos-anchor="#example-anchor"
+                data-aos-duration="1000" class="slide1">
+                    <img  src="image/flower.jpg" alt="">
+                </div>
+                <img   data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-duration="2000" class="slide2" src="image/nature1.jpg" alt="">
+                <div class="slide-wrapp" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <div class="slide">
+                        <div class="content">
+                            <label for="">Latest book</label>
+                            <h1>DÁM ƯỚC MƠ</h1>
+                            <p style="color: white; text-align: start;" >Tôi thấy hoa vàng trên cỏ xanh” là một câu chuyện đầy xúc cảm về quê hương, về gia đình, về thời niên thiếu của mỗi người và sự thành công của một phát thanh viên - em trai tác giả. Hy vọng với cuốn sách này, những ai chưa từng ước mơ sẽ nhanh chóng tìm thấy ước mơ của riêng mình.</p>
+                            <h4>Tác giả: Florence Littauer</h4>
+                            <div><button class="read-btn" onclick="window.location.href='https://thuviensach.vn/pdf/viewer.php?id=d2b2ec'">ĐỌC NGAY </button></div>
+                        </div>
+                        <div class="image"><img src="https://file.hstatic.net/1000362347/article/damuocmow_ab793883a21f4aacb7b748a405dcdbb2_1024x1024.jpg" alt="Sách Giỏ Trái Cây"></div>
+                    </div>
+                </div>
+            </div>
+
+           <div class="swiper-slide silde-ani">
+                <div  data-aos="fade-right"
+                data-aos-anchor="#example-anchor"
+                data-aos-duration="1000" class="slide1">
+                    <img  src="image/pic8.jpg" alt="">
+                </div>
+                <img   data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-duration="2000" class="slide2" src="image/bamboo.jpg" alt="">
+                <div class="slide-wrapp" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <div class="slide">
+                        <div class="content">
+                            <label for="">Latest book</label>
+                            <h1>CHUYỆN CON MÈO VÀ CON CHUỘT BẠN THÂN CỦA NÓ</h1>
+                            <p style="color: white; text-align: start;" >Dưới ngòi bút tài tình của Luis Sepúlveda, tình bạn tay ba Max-Mix-Mex đã được kể một cách đầy ngọt ngào, lôi cuốn, và “Cuốn sách đẹp đẽ này sẽ khiến lũ trẻ tan chảy và cả người lớn nữa. Đúng là một món khoái khẩu!” (La Croix)</p>
+                            <h4>Tác giả: Luis Sepúlveda</h4>
+                            <div><button class="read-btn" onclick="window.location.href='https://thuviensach.vn/pdf/viewer.php?id=41a5d5'">ĐỌC NGAY </button></div>
+                        </div>
+                        <div class="image"><img src="https://2.bp.blogspot.com/-YwsthBchXKY/WdIrvx6n6YI/AAAAAAAANSA/EOCZxzoTzish9stx9qBR6eG2zRYzqoKpgCLcBGAs/s1600/pd9Hju9.jpg" alt="Sách Giỏ Trái Cây"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide silde-ani">
+                <div  data-aos="fade-right"
+                data-aos-anchor="#example-anchor"
+                data-aos-duration="1000" class="slide1">
+                    <img  src="image/waves.jpg" alt="">
+                </div>
+                <img   data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-duration="2000" class="slide2" src="image/japan.jpg" alt="">
+                <div class="slide-wrapp" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <div class="slide">
+                        <div class="content">
+                            <label for="">Latest book</label>
+                            <h1>HƠI THỞ NUÔI DƯỠNG VÀ TRỊ LIỆU</h1>
+                            <p style="color: white; text-align: start;" >Kinh Quán Niệm Hơi Thở là một kinh thiền tập căn bản của đạo Bụt. Đó là một bản đồ tu tập mầu nhiệm mà Bụt đã khám phá và cống hiến cho chúng ta. Người nào có được bản đồ này trên tay, chắc chắn sẽ không bị lạc đường.</p>
+                            <h4>Tác giả: Thích Nhất Hạnh</h4>
+                            <div><button class="read-btn" onclick="window.location.href='https://thuvienhoasen.org/images/file/Bbbwvp1G0QgQAMpL/hoi-tho-nuoi-duong-va-tri-lieu.pdf'">ĐỌC NGAY </button></div>
+                        </div>
+                        <div class="image"><img src="https://salt.tikicdn.com/cache/w1200/ts/product/63/eb/e7/7686b9b4172fbbabaee508cf4e03916f.jpg" alt="Sách Giỏ Trái Cây"></div>
+                    </div>
+                </div>
+            </div>
+
+         <div class="swiper-slide silde-ani">
+                <div  data-aos="fade-right"
+                data-aos-anchor="#example-anchor"
+                data-aos-duration="1000" class="slide1">
+                    <img  src="image/image-1.jpg" alt="">
+                </div>
+                <img   data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-duration="2000" class="slide2" src="image/nature4.jpg" alt="">
+                <div class="slide-wrapp" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <div class="slide">
+                        <div class="content">
+                            <label for="">Latest book</label>
+                            <h1>THÔNG ĐIỆP CỦA NƯỚC</h1>
+                            <p style="color: white; text-align: start;" >Cuốn sách có khả năng thay đổi một cách sâu sắc thế giới quan của bạn. Tiến sĩ Masaru Emoto phát hiện rằng những tinh thể hình thành từ nước đóng băng có khả năng thay đổi để biểu lộ những suy nghĩ đặc biệt và tập trung hướng về "chúng".</p>
+                            <h4>Tác giả: Masura Emoto</h4>
+                            <div><button class="read-btn" onclick="window.location.href='https://sachphat.net/ebook/Thong-Diep-Cua-Nuoc-Scan-mau.pdf'">ĐỌC NGAY </button></div>
+                        </div>
+                        <div class="image"><img src="https://cdn.shopify.com/s/files/1/0627/1189/0158/products/image_5319649b-9550-4101-8495-3c8fcd7ccbb5.jpg?v=1671295685" alt="Sách Giỏ Trái Cây"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+   </div>
+</section>
+
+<section class="introduce-box">
+    <div class="introduc-a" style="display: flex; justify-content: space-between; gap: 20px;">
+        <div class="introduce-wrap" data-aos-duration="500" data-aos="fade-right">
+            <div class="introduce">
+                <img src="image/pic5.jpg" alt="">
+                <div class="content-intro">
+                    <h2>No Ads</h2>
+                    <p>Tất cả các sách bạn đọc đều không có quảng cáo</p>
+                    <label>ĐỌC NGAY </label>
+                </div>
+            </div>
+        </div>
+    
+        <div class="introduce-wrap" data-aos-duration="1500" data-aos="fade-right" >
+            <div class="introduce">
+                <img src="image/nature5.jpg" alt="">
+                <div class="content-intro">
+                    <h2>Đọc </h2>
+                    <p>Dùng được trên cả máy tính, di động, máy tính bảng</p>
+                    <label>ĐỌC NGAY </label>
+                </div>
+            </div>
+        </div>
+    
+        <div class="introduce-wrap" data-aos-duration="2500" data-aos="fade-right" >
+            <div class="introduce">
+                <img src="image/category-2.jpg" alt="">
+                <div class="content-intro">
+                    <h2>Địa lý </h2>
+                    <p>Từ sách chữ, sách nói, truyện tran </p>
+                    <label>ĐỌC NGAY </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   <!--xong home section-->
+
+
+   
+   <!--list section-->
+<section class="list-book" style=" margin: 80px 0;">
+    <div class="most-read">
+        <div class="info-best" >
+            <h4>Our Book</h4>
+            <h1 >ĐỌC NHIỀU  <br><label for="">NHẤT</label></h1>
+            <p>Sau đây là những quyển sách được bán chạy nhất theo khảo sát của chúng tôi</p>
+            <label>xem thêm </label>
+
+        </div>
+
+        <div class="swiper mySwiper1 best" style="flex: 1fr;">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide best-wrapp">
+                    <div  class="best-box" >
+                        <img class="best-img" src="image/tuoi_tre_dang_gia_bao_nhieu.jpg" alt="">
+                        <div class="best-icon">
+                            <span><ion-icon name="heart-outline"></ion-icon></span>
+                            <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                            <span><ion-icon name="share-social-outline"></ion-icon></span>
+                            <span><ion-icon name="search-outline"></ion-icon></span>
+                        </div>
+                        <div class="best-read">
+                            <a href="book/sachhaymienphi.com - tuoi-tre-dang-gia-bao-nhieu.pdf"><label for="">ĐỌC NGAY </label></a>
+                        </div>
+                    </div>
+                    <div class="best-name" >
+                        <h3 >Tuổi trẻ đáng giá bao nhiêu</h3>
+                        <p style="color: gray; margin: 15px 0;">Trợ giúp </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide best-wrapp">
+                    <div  class="best-box">
+                        <img class="best-img" src="image/cua_hang _thinh_vuong.jpg" alt="">
+                        <div class="best-icon">
+                            <span><ion-icon name="heart-outline"></ion-icon></span>
+                            <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                            <span><ion-icon name="share-social-outline"></ion-icon></span>
+                            <span><ion-icon name="search-outline"></ion-icon></span>
+                        </div>
+                     
+                        <div class="best-read">
+                           <a href="book/Cua hang thinh vuong - Takashi Uno.pdf"> <label for="">ĐỌC NGAY </label></a>
+                        </div>
+
+                    </div>
+                    <div class="best-name" >
+                        <h3 >Cửa hàng thịnh vượng</h3>
+                        <p style="color: gray; margin: 15px 0;">Trợ giúp </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide best-wrapp">
+                    <div  class="best-box">
+                        <img class="best-img" src="image/doi-ngan-dung-ngu-dai.jpg" alt="">
+                        <div class="best-icon">
+                            <span><ion-icon name="heart-outline"></ion-icon></span>
+                            <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                            <span><ion-icon name="share-social-outline"></ion-icon></span>
+                            <span><ion-icon name="search-outline"></ion-icon></span>
+                        </div>
+                       
+                        <div class="best-read">
+                            <a href="book/Đời Ngắn Đừng Ngủ Dài - Robin Sharma.pdf"><label for="">ĐỌC NGAY </label></a>
+                         </div>
+                    </div>
+                    <div class="best-name" >
+                        <h3 >Đời ngắn đừng ngủ dài</h3>
+                        <p style="color: gray; margin: 15px 0;">Trợ giúp </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide best-wrapp">
+                    <div  class="best-box">
+                        <img class="best-img" src="image/hieu-ve-trai-tim.u2487.d20161014.t163044.788143.jpg" alt="">
+                        <div class="best-icon">
+                            <span><ion-icon name="heart-outline"></ion-icon></span>
+                            <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                            <span><ion-icon name="share-social-outline"></ion-icon></span>
+                            <span><ion-icon name="search-outline"></ion-icon></span>
+                        </div>
+                        <div class="best-read">
+                             <a href="book/hieu-ve-trai-tim.pdf"><label for="">ĐỌC NGAY </label></a>
+                        </div>
+                    </div>
+                    <div class="best-name" >
+                        <h3 >Hiểu về trái tim</h3>
+                        <p style="color: gray; margin: 15px 0;">Trợ giúp</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide best-wrapp">
+                    <div  class="best-box">
+                        <img class="best-img" src="image/chien_binh_cau_vong.jpg" alt="">
+                        <div class="best-icon">
+                            <span><ion-icon name="heart-outline"></ion-icon></span>
+                            <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                            <span><ion-icon name="share-social-outline"></ion-icon></span>
+                            <span><ion-icon name="search-outline"></ion-icon></span>
+                        </div>
+                     
+                        <div class="best-read">
+                           <a href="book/hieu-ve-trai-tim.pdf"> <label for="">ĐỌC NGAY </label></a>
+                        </div>
+                    </div>
+                    <div class="best-name" >
+                        <h3 >Chiến binh cầu vồng</h3>
+                        <p style="color: gray; margin: 15px 0;">Trợ giúp </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+<section style="display: flex; justify-content: center; align-items: center; padding: 20px;">
+    <div class="category-wrapp">
+       <a href="https://truyenfull.com/sherlock-holmes-toan-tap-tap-1.19594/">
+            <div class="category" data-aos="zoom-in" data-aos-duration="500"  >
+                <img src="image/detective.jpg" alt="">
+                <div class="cate-content">
+                    <h3>DETECTIVE</h3>
+                    <div class="cate-supp">
+                        <label for="">12 cuốn sách</label>
+                    </div>
+                </div>
+        </div>
+       </a>
+    
+      <a href="https://www.elle.vn/">
+        <div class="category" data-aos="zoom-in" data-aos-duration="1000" >
+            <img src="image/magazine.jpg" alt="">
+            <div class="cate-content">
+                <h3>MAGAZINE</h3>
+                <div class="cate-supp">
+                    <label for="">132 cuốn sách</label>
+                </div>
+            </div>
+        </div>
+      </a>
+    
+        <a href="https://www.computerworld.com/news/">
+            <div class="category" data-aos="zoom-in" data-aos-duration="1500" >
+                <img src="image/technology.jpg" alt="">
+                <div class="cate-content">
+                    <h3>TECHNOLOGY</h3>
+                    <div class="cate-supp">
+                        <label for="">35  cuốn sách</label>
+                    </div>
+                </div>
+            </div>
+        </a>
+    
+        <div class="cate-sm" data-aos="zoom-in" data-aos-duration="2000" >
+          <a href="https://cafef.vn/"  style="height: 47%;">
+            <div class="category" >
+                <img src="image/economy.jpg" alt="">
+                <div class="cate-content">
+                    <h3>ECONOMY</h3>
+                    <div class="cate-supp">
+                        <label for="">12 cuốn sách</label>
+                    </div>
+                </div>
+            </div>
+          </a>
+            
+        <a href="https://www.nettruyenplus.com/" class="cate1"  style="height: 47%;">
+            <div class="category">
+                <img src="image/comics.jpg" alt="">
+                <div class="cate-content">
+                    <h3>COMICS</h3>
+                    <div class="cate-supp">
+                        <label for="">102 cuốn sách</label>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</section>
+
+<section class="list-book" style=" margin: 80px 0;">
+    <div class="most-read">
+        <div class="info-best">
+            <h4>Our Book</h4>
+            <h1 >SÁCH MỚI  <br><label for="">NHẤT</label></h1>
+            <p>Những quyển sách mới được ra mắt dành cho quý độc giả</p>
+            <label>SEE MORE</label>
+
+        </div>
+
+        <div class="swiper mySwiper1 best" >
+            <div class="swiper-wrapper">
+                <div class="swiper-slide best-wrapp">
+                    <div  class="best-box">
+                        <img class="best-img" src="image/tim_minh_trong_the_gioi_hau_tuoi_tho'.jpg" alt="">
+                        <div class="best-icon">
+                            <span><ion-icon name="heart-outline"></ion-icon></span>
+                            <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                            <span><ion-icon name="share-social-outline"></ion-icon></span>
+                            <span><ion-icon name="search-outline"></ion-icon></span>
+                        </div>
+                        <div class="best-read">
+                           <a href="book/Tìm Mình Trong Thế Giới Hậu Tuổi Thơ.pdf"> <label for="">ĐỌC NGAY </label></a>
+                        </div>
+                    </div>
+                    <div class="best-name" >
+                        <h3 >Tìm mình trong thế giới hậu tuổi thơ</h3>
+                        <p style="color: gray; margin: 15px 0;">Trợ giúp </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide best-wrapp">
+                    <div  class="best-box">
+                        <img class="best-img" src="image/hanh-trinh-ve-phuong-dong.jpg" alt="">
+                        <div class="best-icon">
+                            <span><ion-icon name="heart-outline"></ion-icon></span>
+                            <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                            <span><ion-icon name="share-social-outline"></ion-icon></span>
+                            <span><ion-icon name="search-outline"></ion-icon></span>
+                        </div>
+                        <div class="best-read">
+                            <a href="book/Sachmoi.net-Hanh-Trinh-Ve-Phuong-Dong.pdf"><label for="">ĐỌC NGAY</label></a>
+                        </div>
+                    </div>
+                    <div class="best-name" >
+                        <h3 >Hành trình trở về Phương Đông</h3>
+                        <p style="color: gray; margin: 15px 0;">Trợ giúp </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide best-wrapp">
+                    <div  class="best-box">
+                        <img class="best-img" src="image/220px-Cho_tôi_xin_một_vé_đi_tuổi_thơ.jpg" alt="">
+                        <div class="best-icon">
+                            <span><ion-icon name="heart-outline"></ion-icon></span>
+                            <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                            <span><ion-icon name="share-social-outline"></ion-icon></span>
+                            <span><ion-icon name="search-outline"></ion-icon></span>
+                        </div>
+                        <div class="best-read">
+                            <a href="book/sachmoi.net - Cho toi xin mot ve di tuoi tho - Nguyen Nhat Anh.pdf"><label for="">ĐỌC NGAY</label></a>
+                        </div>
+                    </div>
+                    <div class="best-name" >
+                        <h3 >Cho tôi một vé về tuổi thơ</h3>
+                        <p style="color: gray; margin: 15px 0;">Trợ giúp </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide best-wrapp">
+                    <div  class="best-box">
+                        <img class="best-img" src="image/tuoi_tre_dang_gia_bao_nhieu.jpg" alt="">
+                        <div class="best-icon">
+                            <span><ion-icon name="heart-outline"></ion-icon></span>
+                            <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                            <span><ion-icon name="share-social-outline"></ion-icon></span>
+                            <span><ion-icon name="search-outline"></ion-icon></span>
+                        </div>
+                        <div class="best-read">
+                            <a href=""><label for="">ĐỌC NGAY</label></a>
+                        </div>
+                    </div>
+                    <div class="best-name" >
+                        <h3 >Tuổi trẻ đáng giá bao nhiêu</h3>
+                        <p style="color: gray; margin: 15px 0;">Trợ giúp </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide best-wrapp">
+                    <div  class="best-box">
+                        <img class="best-img" src="image/bia-1---mac-ke-thien-ha.u5102.d20170323.t155756.324847.jpg" alt="">
+                        <div class="best-icon">
+                            <span><ion-icon name="heart-outline"></ion-icon></span>
+                            <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                            <span><ion-icon name="share-social-outline"></ion-icon></span>
+                            <span><ion-icon name="search-outline"></ion-icon></span>
+                        </div>
+                        <div class="best-read">
+                            <a href="book/Mac Ke Thien Ha - Song Nhu Nguo - Mari Tamagawa.pdf"><label for="">ĐỌC NGAY</label></a>
+                        </div>
+                    </div>
+                    <div class="best-name" >
+                        <h3 >Mặc kệ thiện hạ</h3>
+                        <p style="color: gray; margin: 15px 0;">Trợ giúp </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+<section style="padding: 80px 0;">
+    <div class="sayings">
+        <img src="https://sachhay24h.com/uploads/images/2020/T5/471/tuoi-tre-dang-gia-bao-nhieu.PNG" alt="" data-aos="fade-right"  data-aos-duration="500">
+        <div class="saying-content" data-aos="fade-left"  data-aos-duration="1500">
+            <h1>
+                Hãy sống theo cách bạn muốn. <br> <label for="">Vì sau tất cả</label> <span>chẳng ai quan tâm</span>
+            </h1>
+            <p>Tuổi trẻ đáng giá bao nhiêu? là cuốn sách cực kỳ gần gũi với độc giả, những người tràn đầy sắc xanh và ưa trải nghiệm, khám phá bản thân. Mỗi người đều có những quỹ thời gian và cách xây dựng, tận hưởng hạnh phúc, tương lai của riêng mình.</p>
+            <h3>Tuổi trẻ đáng giá bao nhiêu? - <label for="">ROSE NGUYỄN - </label></h3>
+            <div class="say-btn">
+                <a href="https://anybooks.vn/review-sach-tuoi-tre-dang-gia-bao-nhieu-rosie-nguyen-a1282.html"><button class="book-most1">View more</button></a>
+                <a href="book/sachhaymienphi.com - tuoi-tre-dang-gia-bao-nhieu.pdf"><button class="book-most2" >Read more</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="sayings" style="flex-direction: row-reverse;background-color: #fbfcff;">
+        <img src="https://static.wixstatic.com/media/510f29_e9bad67255014fda8294bf7465bc9824~mv2.jpg/v1/fill/w_980,h_653,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/510f29_e9bad67255014fda8294bf7465bc9824~mv2.jpg" data-aos="fade-left"  data-aos-duration="500" alt="">
+        <div class="saying-content" data-aos="fade-right"  data-aos-duration="1500" >
+            <h1>
+                Chúng ta càng ham muốn thì càng sợ hãi và  <br> <label for="">càng sợ hãi</label> <span>lại càng đau khổ</span>
+            </h1>
+            <p>Cuốn sách này sẽ phù hợp với những người tìm hiểu tâm linh, chay tịnh. Cuốn sách như mọi cuộc hành trình khác, đầy gian truân và chứa đựng nhiều triết lý giá trị.</p>
+            <h3>Hành trình trở về Phương Đông  - <label for="">Baird T. Spaidling - </label></h3>
+            <div class="say-btn">
+                <a href="https://triethocduongpho.net/2019/02/20/review-hanh-trinh-ve-phuong-dong-baird-t-spalding-mo-ra-cau-noi-giua-khoa-hoc-va-minh-triet/"><button class="book-most1">View more</button></a>
+                <a href="book/Sachmoi.net-Hanh-Trinh-Ve-Phuong-Dong.pdf"><button class="book-most2" >Read more</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="height: 800px;">
+    <div class="function">
+        <div class="function-head">
+            <h3>Our Book</h3>
+            <h1>Tính năng</h1> 
+            <p>Chúng tôi có một số tính năng đặc biệt tạo điều kiện thuận lợi giúp người đọc thoải mái hơn</p>
+        </div>
+
+        <div class="func-box" style="display: flex; justify-content: space-between;" >
+            <div class="func-content" data-aos="flip-left" data-aos-duration="1000">
+                <img src="https://www.open.edu/openlearn/pluginfile.php/3279510/tool_ocwmanage/image/0/54852849_l.jpg" alt="">
+                <div class="func-text">
+                    <h1>1.</h1>
+                    <div class="func-label">
+                        <h2>Community</h2>
+                        <p>Cộng đồng người đọc lớn. Biết đâu bạn có thể tìm được 1 người bạn chung sở thích</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="func-content" data-aos="flip-left" data-aos-duration="2000">
+                <img src="https://lakelandmom.com/wp-content/uploads/2018/05/Summer-Reading.jpg" alt="">
+                <div class="func-text">
+                    <h1>2.</h1>
+                    <div class="func-label">
+                        <h2>Free</h2>
+                        <p>Bạn có thể tìm được bất cứ quyển sách nào mà bạn thích vì chúng tôi đã mua bản quyền sách</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="func-content" data-aos="flip-left" data-aos-duration="3000">
+                <img src="https://www.abajournal.com/images/main_images/online_news.jpg" alt="">
+                <div class="func-text">
+                    <h1>3.</h1>
+                    <div class="func-label">
+                        <h2>News</h2>
+                        <p>Cung cấp các thông tin về sự kiện, ngày giờ phát hành sách mà bạn quan tâm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="padding: 200px 0 0 0;">
+
+    <div class="swiper mySwiper2">
+        <div class="swiper-wrapper"> 
+           
+            <div class="swiper-slide best-wrapp">
+                <div  class="best-box">
+                    <img class="best-img" src="image/tuoi_tre_dang_gia_bao_nhieu.jpg" alt="">
+                    <div class="best-icon">
+                        <span><ion-icon name="heart-outline"></ion-icon></span>
+                        <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                        <span><ion-icon name="share-social-outline"></ion-icon></span>
+                        <span><ion-icon name="search-outline"></ion-icon></span>
+                    </div>
+                    <div class="best-read">
+                        <a href="book/sachhaymienphi.com - tuoi-tre-dang-gia-bao-nhieu.pdf"><label for="">ĐỌC NGAY</label></a>
+                    </div>
+                </div>
+                <div class="best-name" >
+                    <h3 >Tuổi trẻ đáng giá bao nhiêu</h3>
+                    <p style="color: gray; margin: 15px 0;">Trợ giúp </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide best-wrapp">
+                <div  class="best-box">
+                    <img class="best-img" src="image/cua_hang _thinh_vuong.jpg" alt="">
+                    <div class="best-icon">
+                        <span><ion-icon name="heart-outline"></ion-icon></span>
+                        <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                        <span><ion-icon name="share-social-outline"></ion-icon></span>
+                        <span><ion-icon name="search-outline"></ion-icon></span>
+                    </div>
+                 
+                    <div class="best-read">
+                       <a href="book/Cua hang thinh vuong - Takashi Uno.pdf"> <label for="">ĐỌC NGAY</label></a>
+                    </div>
+
+                </div>
+                <div class="best-name" >
+                    <h3 >Cửa hàng thịnh vượng</h3>
+                    <p style="color: gray; margin: 15px 0;">Trợ giúp </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide best-wrapp">
+                <div  class="best-box">
+                    <img class="best-img" src="image/doi-ngan-dung-ngu-dai.jpg" alt="">
+                    <div class="best-icon">
+                        <span><ion-icon name="heart-outline"></ion-icon></span>
+                        <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                        <span><ion-icon name="share-social-outline"></ion-icon></span>
+                        <span><ion-icon name="search-outline"></ion-icon></span>
+                    </div>
+                   
+                    <div class="best-read">
+                        <a href="book/Đời Ngắn Đừng Ngủ Dài - Robin Sharma.pdf"><label for="">ĐỌC NGAY</label></a>
+                     </div>
+                </div>
+                <div class="best-name" >
+                    <h3 >Đời ngắn đừng ngủ dài</h3>
+                    <p style="color: gray; margin: 15px 0;">Trợ giúp </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide best-wrapp">
+                <div  class="best-box">
+                    <img class="best-img" src="image/hieu-ve-trai-tim.u2487.d20161014.t163044.788143.jpg" alt="">
+                    <div class="best-icon">
+                        <span><ion-icon name="heart-outline"></ion-icon></span>
+                        <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                        <span><ion-icon name="share-social-outline"></ion-icon></span>
+                        <span><ion-icon name="search-outline"></ion-icon></span>
+                    </div>
+                    <div class="best-read">
+                         <a href="book/hieu-ve-trai-tim.pdf"><label for="">ĐỌC NGAY</label></a>
+                    </div>
+                </div>
+                <div class="best-name" >
+                    <h3 >Hiểu về trái tim</h3>
+                    <p style="color: gray; margin: 15px 0;">Trợ giúp </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide best-wrapp">
+                <div  class="best-box">
+                    <img class="best-img" src="image/chien_binh_cau_vong.jpg" alt="">
+                    <div class="best-icon">
+                        <span><ion-icon name="heart-outline"></ion-icon></span>
+                        <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                        <span><ion-icon name="share-social-outline"></ion-icon></span>
+                        <span><ion-icon name="search-outline"></ion-icon></span>
+                    </div>
+                 
+                    <div class="best-read">
+                       <a href="book/hieu-ve-trai-tim.pdf"> <label for="">ĐỌC NGAY</label></a>
+                    </div>
+                </div>
+                <div class="best-name" >
+                    <h3 >Chiến binh cầu vồng</h3>
+                    <p style="color: gray; margin: 15px 0;">Trợ giúp </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide best-wrapp">
+                <div  class="best-box">
+                    <img class="best-img" src="image/tim_minh_trong_the_gioi_hau_tuoi_tho'.jpg" alt="">
+                    <div class="best-icon">
+                        <span><ion-icon name="heart-outline"></ion-icon></span>
+                        <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                        <span><ion-icon name="share-social-outline"></ion-icon></span>
+                        <span><ion-icon name="search-outline"></ion-icon></span>
+                    </div>
+                    <div class="best-read">
+                       <a href="book/Tìm Mình Trong Thế Giới Hậu Tuổi Thơ.pdf"> <label for="">ĐỌC NGAY</label></a>
+                    </div>
+                </div>
+                <div class="best-name" >
+                    <h3 >Tìm mình trong thế giới hậu tuổi thơ</h3>
+                    <p style="color: gray; margin: 15px 0;">Trợ giúp </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide best-wrapp">
+                <div  class="best-box">
+                    <img class="best-img" src="image/hanh-trinh-ve-phuong-dong.jpg" alt="">
+                    <div class="best-icon">
+                        <span><ion-icon name="heart-outline"></ion-icon></span>
+                        <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                        <span><ion-icon name="share-social-outline"></ion-icon></span>
+                        <span><ion-icon name="search-outline"></ion-icon></span>
+                    </div>
+                    <div class="best-read">
+                        <a href="book/Sachmoi.net-Hanh-Trinh-Ve-Phuong-Dong.pdf"><label for="">ĐỌC NGAY </label></a>
+                    </div>
+                </div>
+                <div class="best-name" >
+                    <h3 >Hành trình trở về Phương Đông</h3>
+                    <p style="color: gray; margin: 15px 0;">Trợ giúp </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide best-wrapp">
+                <div  class="best-box">
+                    <img class="best-img" src="image/220px-Cho_tôi_xin_một_vé_đi_tuổi_thơ.jpg" alt="">
+                    <div class="best-icon">
+                        <span><ion-icon name="heart-outline"></ion-icon></span>
+                        <span><ion-icon name="bag-handle-outline"></ion-icon></span>
+                        <span><ion-icon name="share-social-outline"></ion-icon></span>
+                        <span><ion-icon name="search-outline"></ion-icon></span>
+                    </div>
+                    <div class="best-read">
+                        <a href="book/sachmoi.net - Cho toi xin mot ve di tuoi tho - Nguyen Nhat Anh.pdf"><label for="">ĐỌC NGAY </label></a>
+                    </div>
+                </div>
+                <div class="best-name" >
+                    <h3 >Cho tôi một vé về tuổi thơ</h3>
+                    <p style="color: gray; margin: 15px 0;">Trợ giúp </p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+
+<section class="news-box">
+    <div class="book1" style="text-align: center; margin-bottom: 80px;">
+        <h3>News</h3>
+        <h1>Sự kiện sách</h1>
+        <p style="color: gray ;">Có rất nhiều các sự kiện sách nơi mà bạn có thể tìm thấy người cùng chung sở thích</p>
+    </div>
+
+    <div class="swiper mySwiper1 news-wrapp" >
+        <div class="swiper-wrapper ">
+
+           <a class="swiper-slide news-slide" href="https://sontra.danang.gov.vn/chitiettintuc.aspx?ID=327871" >
+            <div class="news">
+                <img src="image/pic8.jpg" alt="">
+                <div class="news-info">
+                    <div style="width: 70%;">
+                        <p style="background-color: #594B43; color: white;">RECENT BOOK FAIR</p>
+                        <P style="margin-bottom: 20px; color: white;">Son Tra book fair</P>
+                        <div class="news-share" >
+                            <img src="image/pic10.jpg" alt="">
+                            <label for="">S.Roger</label>
+                            <span style="position: relative; margin-right: 20px;">
+                                <ion-icon style="font-size: 20px;"  name="chatbox-outline"></ion-icon>
+                                <label class="news-Notification">1</label>
+                            </span>
+                            <ion-icon style="font-size: 20px;" name="share-social-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-time">March <br> 2023</div>
+            </div>
+           </a>
+
+           <a class="swiper-slide news-slide" href="https://www.hoisachxuyenviet.com/"  >
+                <div class="news">
+                    <img src="image/pic7.jpg" alt="">
+                    <div class="news-info">
+                        <div style="width: 70%;">
+                            <p style="background-color: #594B43;color: white;">RECENT BOOK FAIR</p>
+                            <P style="margin-bottom: 20px;color: white;">Trans-Vietnamese book fair</P>
+                            <div class="news-share" >
+                                <img src="image/pic9.jpg" alt="">
+                                <label for="">S.Roger</label>
+                                <span style="position: relative; margin-right: 20px;">
+                                    <ion-icon style="font-size: 20px;"  name="chatbox-outline"></ion-icon>
+                                    <label class="news-Notification">2</label>
+                                </span>
+                                <ion-icon style="font-size: 20px;" name="share-social-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-time"> November <br> 2023</div>
+                </div>
+           </a>
+
+
+            <a class="swiper-slide news-slide" href="https://vietnamnews.vn/life-style/1313982/nha-nam-book-fair-ready-to-welcome-buyers-of-all-ages.html"  >
+                <div class="news">
+                    <img src="image/pic5.jpg" alt="">
+                    <div class="news-info">
+                        <div style="width: 70%;">
+                            <p style="background-color: #594B43;color: white;">RECENT BOOK FAIR</p>
+                            <P style="margin-bottom: 20px;color: white;">Nha Nam book fair</P>
+                            <div class="news-share" >
+                                <img src="image/pic1.webp" alt="">
+                                <label for="">S.Roger</label>
+                                <span style="position: relative; margin-right: 20px;">
+                                    <ion-icon style="font-size: 20px;"  name="chatbox-outline"></ion-icon>
+                                    <label class="news-Notification">5</label>
+                                </span>
+                                <ion-icon style="font-size: 20px;" name="share-social-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-time">May <br> 2023</div>
+                </div>
+            </a>
+
+           <a  class="swiper-slide news-slide" href="https://tienphong.vn/khai-mac-hoi-sach-ha-noi-2022-tai-ho-hoan-kiem-post1475864.tpo"  >
+                <div class="news">
+                    <img src="image/pic10.jpg" alt="">
+                    <div class="news-info">
+                        <div style="width: 70%;">
+                            <p style="background-color: #594B43;color: white;">RECENT BOOK FAIR</p>
+                            <P style="margin-bottom: 20px;color: white;">Ha Noi book fair</P>
+                            <div class="news-share" >
+                                <img src="image/pic5.jpg" alt="">
+                                <label for="">S.Roger</label>
+                                <span style="position: relative; margin-right: 20px;">
+                                    <ion-icon style="font-size: 20px;"  name="chatbox-outline"></ion-icon>
+                                    <label class="news-Notification">8</label>
+                                </span>
+                                <ion-icon style="font-size: 20px;" name="share-social-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-time">July <br> 2023</div>
+                </div>
+           </a>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<section style="padding: 80px 0;">
+    <div class="comment">
+        <img src="image/background.jpg" alt="">
+        <div class="comm-cont">
+            <h3>ĐỌC NGAY </h3>
+            <h1></h1>
+            <div class="comm-input">
+                <input type="email" placeholder="Your email address">
+                <button>Sign up</button>
+            </div>
+            <p>Người dùng sẽ được an toàn với các chính sách bảo mật của chúng tôi</p>
+            <div style="display: flex; justify-content: center;align-items: center;">
+                <div class="comm-icon">
+                    <span><ion-icon name="logo-facebook"></ion-icon></span>
+                    <span><ion-icon name="logo-twitter"></ion-icon></span>
+                    <span><ion-icon name="logo-instagram"></ion-icon></span>
+                    <span><ion-icon name="logo-pinterest"></ion-icon></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="padding: 0; display: flex; justify-content: center; align-items: center;" >
+    <div class="follow">
+        <div class="follow-img">
+          <img src="image/pic10.jpg" alt="">
+          <img src="image/pic5.jpg" alt="">
+          <img src="image/pic7.jpg" alt="">
+          <img src="image/pic10.jpg" alt="">
+          <img src="image/bamboo.jpg" alt="">
+          <img src="image/evening.jpg" alt=""> 
+        </div>
+        <div class="follow-icon">
+          <ion-icon name="logo-instagram"></ion-icon>
+          <span></span>
+        </div>
+     </div>
+</section>
+
+<footer>
+    <div class="footer">
+        <div class="footer-box" >
+            
+            <p>  </p>
+            <p><ion-icon name="send-outline"></ion-icon> THPT THẠNH ĐÔNG </p>
+            <p><ion-icon name="phone-portrait-outline"></ion-icon> Phone: 0364716331</p>
+            
+        </div>
+    
+        <div class="footer-box">
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;"></p>
+            <div style="display: flex; gap: 20px; padding: 20px; border-bottom: 1px solid gray ;">
+              
+                <div>
+                    <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;"></p>
+                    <p><span style="margin-left: 10px;"></span></p>
+                </div>
+            </div>
+    
+            <div style="display: flex; gap: 20px; padding: 20px;">
+               
+                <div>
+                    <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;"</p>
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-box">
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;
+        </div>
+    
+        <div class="footer-box">
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;
+        </div>
+    
+        <div class="footer-box">
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

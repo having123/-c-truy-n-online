@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Exo:ital,wght@0,400;0,600;0,700;1,500&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="list.css">
+    <title>Document</title>
+</head>
+<body>
+     <header>
+        <a href="#" class="logo">ĐỌC NGAY</a>
+        <nav class="navbar">
+            <a class="active" href="index.html" id="home">TRANG CHỦ </a>
+            <a href="list.html">DANH SÁCH </a>
+            <a href="about.html">BAO GỒM </a>
+            <a href="#" class="header-login-btn"></a>
+            <span><ion-icon class="search-icon" name="search-outline"></ion-icon></span>
+        </nav>
+        <div class="navbar-after">
+            <a href="index.html" >TRANG CHỦ </a> 
+            <a href="list.html">DANH SÁCH </a>
+            <a href="about.css">BAO GỒM t</a>
+            <a href="#" class="header-login-btn"></a>
+        </div>
+        <ion-icon class="menu-icon" name="menu-outline"></ion-icon>
+    </header>
+
+    <form action="" class="search-form">
+        <input type="search" class="search-box" placeholder="search here ...">
+        <label for="" class="fas fa-search"></label>
+        <i class="fa fa-times" aria-hidden="true" id="close"></i>
+   </form>
+
+
+
+<form class="login-register">
+    <div class="wrapped"> 
+        <span class="close"><ion-icon name="close-outline"></ion-icon></span>
+        <div class="form-box-login">
+            <div class="box-login">
+                <h2></h2>
+                <form action="">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="text" required>
+                    <label for=""></label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></ion-icon></span>
+                    <input type="password" required>
+                    <label for=""></label>
+                </div>
+                <div class="renember-forgot">
+                    <label for=""><input type="checkbox"></label>
+                    <a href="">d</a>
+                </div>
+                <button class="login-btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account </p>
+                    <a href="#" class="register-link">Register</a>
+                </div>
+                </form>
+            </div>
+
+            <div class="box-register">
+                <h2>Registration</h2>
+                <form action="">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <input type="text" required>
+                    <label for="">Username</label>
+                </div>                    
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="text" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></ion-icon></span>
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="renember-forgot">
+                    <label for=""><input type="checkbox">I agree to the terms & conditions</label>
+                </div>
+                <button class="login-btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account </p>
+                    <a href="#" class="login-link">Login</a>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</form>
+
+<section>
+    <div class="list-slide">
+       <img src="https://ebook.waka.vn/themes/desktop/reactjs//images/bannerButton.jpg" alt="">
+       <table >
+           <tr>
+               <td colspan="5"><h2>BẢNG XẾP HẠNG</h2></td>
+           </tr>
+             
+           <tr>
+               <td>Sách</td>
+               <td colspan="3">Sách nói</td>
+               <td>Ngày</td>
+           </tr>
+
+           <tr>
+               <td class="col1" style="color: red;"><p>01</p> </td>
+               <td class="img-col"> <img src="image/bia-1---mac-ke-thien-ha.u5102.d20170323.t155756.324847.jpg" alt=""></td>
+               <td class="list-bks">Mặc kệ thiên hạ- Sống như người  <br> <label for="">Mari Tamagawa</label></td>
+               <td><ion-icon class="list-icon" name="eye-outline"></ion-icon> 563</td>
+               <td><ion-icon class="list-icon" name="heart-outline"></ion-icon>  244</td>
+           </tr>
+
+           <tr>
+               <td class="col1"><p style="color: rgb(0, 110, 255);">02</p> </td>
+               <td class="img-col"> <img src="image/di_tim_le_song.jpg" alt=""></td>
+               <td class="list-bks">Đi tìm lẽ sống <br> <label for="">Viktor E.FRANKIL</label></td>
+               <td><ion-icon class="list-icon" name="eye-outline"></ion-icon> 123</td>
+               <td><ion-icon class="list-icon" name="heart-outline"></ion-icon>  234</td>
+           </tr>
+
+           <tr>
+               <td class="col1" ><p style="color: rgb(80, 45, 32);">03</p> </td>
+               <td class="img-col"> <img src="image/dac_nhan_tam.jpg" alt=""></td>
+               <td class="list-bks">Đắc nhân tâm <br> <label for="">Dale Carnegie</label></td>
+               <td><ion-icon class="list-icon" name="eye-outline"></ion-icon> 123</td>
+               <td><ion-icon class="list-icon" name="heart-outline"></ion-icon>  234</td>
+           </tr>
+
+           <tr>
+               <td class="col1" ><p style="color: green;">04</p> </td>
+               <td class="img-col"> <img src="image/hieu-ve-trai-tim.u2487.d20161014.t163044.788143.jpg" alt=""></td>
+               <td class="list-bks">Hiểu về trái tim <br> <label for="">Minh Niệm</label></td>
+               <td><ion-icon class="list-icon" name="eye-outline"></ion-icon> 123</td>
+               <td><ion-icon class="list-icon" name="heart-outline"></ion-icon>  234</td>
+           </tr>
+
+           <tr>
+               <td class="col1"><p  style="color: rgb(60, 212, 33);">05</p> </td>
+               <td class="img-col"> <img src="image/think_agian.jpg" alt=""></td>
+               <td class="list-bks">Think again <br> <label for="">Melinda Gate</label></td>
+               <td><ion-icon class="list-icon" name="eye-outline"></ion-icon> 123</td>
+               <td><ion-icon class="list-icon" name="heart-outline"></ion-icon>  234</td>
+           </tr>
+
+           <tr>
+               <td class="col1"><p>06</p> </td>
+               <td class="img-col"> <img src="image/khong_so_cham_chi_so_dung.jpg" alt=""></td>
+               <td class="list-bks">Không sợ chậm chỉ sợ dừng<br> <label for="">Vãn Tình</label></td>
+               <td><ion-icon class="list-icon" name="eye-outline"></ion-icon> 123</td>
+               <td><ion-icon class="list-icon" name="heart-outline"></ion-icon>  234</td>
+           </tr>
+
+           <tr>
+               <td class="col1"><p>07</p> </td>
+               <td class="img-col"> <img src="image/toi_ac_va_hinh_phat.jpg" alt=""></td>
+               <td class="list-bks">Tội ác và hình phạt <br> <label for="">Fyodor vevsky</label></td>
+               <td><ion-icon class="list-icon" name="eye-outline"></ion-icon> 123</td>
+               <td><ion-icon class="list-icon" name="heart-outline"></ion-icon>  234</td>
+           </tr>
+
+           <tr>
+               <td class="col1"><p>08</p> </td>
+               <td class="img-col"> <img src="image/tuoi_tre_dang_gia_bao_nhieu.jpg" alt=""></td>
+               <td class="list-bks">Tuổi trẻ đáng giá bao nhiêu? <br> <label for="">Rose Nguyễn</label></td>
+               <td><ion-icon class="list-icon" name="eye-outline"></ion-icon> 123</td>
+               <td><ion-icon class="list-icon" name="heart-outline"></ion-icon>  234</td>
+           </tr>
+
+           <tr>
+               <td class="col1"><p>09</p> </td>
+               <td class="img-col"> <img src="image/quang_ganh_lo_di.jpg" alt=""></td>
+               <td class="list-bks">Quẳng gánh lo đi và vui sống <br> <label for="">Dale Carnegie</label></td>
+               <td><ion-icon class="list-icon" name="eye-outline"></ion-icon> 123</td>
+               <td><ion-icon class="list-icon" name="heart-outline"></ion-icon>  234</td>
+           </tr>
+
+           <tr>
+               <td class="col1"><p>10</p> </td>
+               <td class="img-col"> <img src="image/hanh-trinh-ve-phuong-dong.jpg" alt=""></td>
+               <td class="list-bks">Hành trình về phương đông <br> <label for="">Blaiir T.Spalding</label></td>
+               <td><ion-icon class="list-icon" name="eye-outline"></ion-icon> 123</td>
+               <td><ion-icon class="list-icon" name="heart-outline"></ion-icon>  234</td>
+           </tr>
+       </table>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-box" >
+                <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black; font-size: 25px;P>
+                <p><ion-icon name="send-outline"></ion-icon> THPT THẠNH ĐÔNG </p>
+                <p><ion-icon name="phone-portrait-outline"></ion-icon> Phone:0364716331</p>
+                
+            </div>
+        
+            <div class="footer-box">
+                <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;
+                <div style="display: flex; gap: 20px; padding: 20px; border-bottom: 1px solid gray ;">
+                    <img style="height: 80px; width: 80px; object-fit: cover; border-radius: 5px; " src="image/pic5.jpg" alt="">
+                    <div>
+                        <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;
+                    </div>
+                </div>
+        
+                <div style="display: flex; gap: 20px; padding: 20px;">
+                    <img style="height: 80px; width: 80px; object-fit: cover; border-radius: 5px; " src="image/pic9.jpg" alt="">
+                    <div>
+                        <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;"></p>
+                        <p> <span style="margin-left: 10px;"></span></p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="footer-box">
+                
+            </div>
+        
+            <div class="footer-box">
+               
+            </div>
+        
+            <div class="footer-box">
+                <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;"></p>
+              
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
