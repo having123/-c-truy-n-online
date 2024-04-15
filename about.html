@@ -1,1 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Exo:ital,wght@0,400;0,600;0,700;1,500&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="about.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <a href="#" class="logo">Cùng đọc sách nào </a>
+        <nav class="navbar">
+            <a class="active" href="index.html" id="home">Trang chủ </a>
+            <a href="list.html">Danh sách </a>
+            <a href="about.html">Về t</a>
+           <span><ion-icon class="search-icon" name="search-outline"></ion-icon></span>
+        </nav>
+        <div class="navbar-after">
+            <a href="index.html" >  Trang chủ </a> 
+            <a href="list.html">Danh sách </a>
+            <a href="about.html">Về </a>
+            
+        </div>
+        <ion-icon class="menu-icon" name="menu-outline"></ion-icon>
+    </header>
 
+    <form action="" class="search-form">
+        <input type="search" class="search-box" placeholder="search here ...">
+        <label for="" class="fas fa-search"></label>
+        <i class="fa fa-times" aria-hidden="true" id="close"></i>
+   </form>
+
+
+
+    <form class="login-register">
+        <div class="wrapped"> 
+            <span class="close"><ion-icon name="close-outline"></ion-icon></span>
+            <div class="form-box-login">
+                <div class="box-login">
+                    <h2>Login</h2>
+                    <form action="">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="text" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></ion-icon></span>
+                        <input type="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="renember-forgot">
+                        <label for=""><input type="checkbox">  Renember me</label>
+                        <a href="">Fogot Password</a>
+                    </div>
+                    <button class="login-btn">Login</button>
+                    <div class="login-register">
+                        <p>Don't have an account </p>
+                        <a href="#" class="register-link">Register</a>
+                    </div>
+                    </form>
+                </div>
+
+                <div class="box-register">
+                    <h2>Registration</h2>
+                    <form action="">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                        <input type="text" required>
+                        <label for="">Username</label>
+                    </div>                    
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="text" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></ion-icon></span>
+                        <input type="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="renember-forgot">
+                        <label for=""><input type="checkbox">I agree to the terms & conditions</label>
+                    </div>
+                    <button class="login-btn">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account </p>
+                        <a href="#" class="login-link">Login</a>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <section class="about">
+        <div class="about_bg">
+            <img src="image/about_bg.jpg" alt="">
+        </div>
+        <div>
+            <p>OUR STORY</p>
+        </div>
+    </section>
+
+    <section>
+       <div  class="reason">
+            <div class="reason-text">
+                <h3>READNOW ĐƯỢC TẠO RA VỚI SỰ CAM KẾT VỀ TÁC PHẨM KINH ĐIỂN HIỆN ĐẠI, CHẤT LƯỢNG VƯỢT THỜI GIAN VÀ NGUỒN GỐC.</h3>
+                <p>Được thành lập với tầm nhìn tại California, chúng tôi đã bắt đầu hành trình này với mục tiêu đơn giản: tạo ra một nền tảng đọc sách trực tuyến đáng tin cậy và đáp ứng nhu cầu đọc sách của mọi người.</p>
+                <p>Hãy cùng chúng tôi khám phá thế giới sách, truyền cảm hứng và mở rộng tầm nhìn của bạn thông qua trang web đọc sách online chất lượng mà chúng tôi cung cấp.</p>
+            </div>
+            <img src="image/update_ing.jpeg" alt="">
+       </div>
+    </section>
+
+    <section>
+        <div  class="reason">
+            <img src="image/pic10.jpg" alt="">
+
+            <div class="reason-text">
+                <h3>NO ADS</h3>
+                <p>Mục tiêu của chúng tôi là cung cấp cho bạn một trải nghiệm đọc sách tốt nhất mà không bị gián đoạn bởi quảng cáo.
+                    Ngoài ra, chúng tôi đã thiết kế đơn giản, trực quan và tối ưu để bạn tận hưởng sách một cách tối đa.</p>
+                <p>Hãy cùng chúng tôi khám phá thế giới sách, truyền cảm hứng và mở rộng tầm nhìn của bạn thông qua trang web đọc sách online chất lượng mà chúng tôi cung cấp.</p>
+            </div>
+       </div>
+    </section>
+
+
+    <section >
+       <div class="reason">
+            <div class="reason-text">
+                <h3>UPDATE </h3>
+                <p>Qua việc thiết lập mối quan hệ đối tác chặt chẽ với các tác giả, nhà xuất bản và những nguồn tài nguyên văn hóa, chúng tôi luôn cập nhật và giới thiệu những chương sách mới nhất. </p>
+                <p>Chúng tôi cam kết đảm bảo chất lượng nội dung sách thông qua quá trình kiểm định cẩn thận. Những tác phẩm được chọn lọc kỹ càng để đảm bảo bạn nhận được những trải nghiệm đọc sách tuyệt vời và đáng giá.</p>  
+            </div>
+            <img src="image/book5.jpg" alt="">
+       </div>
+    </section>
+
+    <section style="padding: 10px 0 100px 0;">
+        <div class="slogan">
+            <img src="image/about_bg2.jpg" alt="">
+            <div class="slogan-text">
+                <h3>READNOW</h3>
+                <p>"Unleash the Power of Reading with ReadNow!"</p>
+                <h4>[TÌM HIỂU THÊM]</h4>
+            </div>
+        </div>
+    </section>
+
+    <section  style="border-bottom: 1px solid black;">
+       <div class="reason">
+            <img src="image/advance.jpg" alt="">
+            <p class="abc" style="transform: rotate(90deg); white-space: nowrap; color: rgb(46, 45, 45);">THƯ GIÃN  ĐẦU ÓC</p>
+            <div class="reason-text">
+                <h3>ADVANCE </h3>
+                <p>Còn gì bằng khi giữ đầu óc thoải mái, uống một ly coffee ở nơi có đầy đủ ánh sáng rồi đọc sách.</p>
+                <p>Chúng tôi có cộng đồng để chia sẻ niềm vui đọc sách cùng với bạn. Hẹn sớm gặp lại!</p>
+                <h4>[TÌM HIỂU THÊM]</h4>
+            </div>   
+       </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-box" >
+                <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black; font-size: 25px;">Lit.</p>
+                <p>  We are always there when you need us</p>
+                <p><ion-icon name="send-outline"></ion-icon> 375 QL80, Thạnh Đông A , Tân Hiệp,Kiên Giang</p>
+                <p><ion-icon name="phone-portrait-outline"></ion-icon> Tác giả: Hồ Ngọc Vĩnh </p>
+                
+            </div>
+        
+            <div class="footer-box">
+                <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;">RECENT POST</p>
+                <div style="display: flex; gap: 20px; padding: 20px; border-bottom: 1px solid gray ;">
+                    <img style="height: 80px; width: 80px; object-fit: cover; border-radius: 5px; " src="image/pic5.jpg" alt="">
+                    <div>
+                        <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;">A companion for extra sleeping</p>
+                        
+                    </div>
+                </div>
+        
+                <div style="display: flex; gap: 20px; padding: 20px;">
+                 
+                    <div>
+                        <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: black;"></p>
+                       
+                    </div>
+                </div>
+            </div>
+        
+            <div class="footer-box">
+                
+            </div>
+        
+            <
+            </div>
+        
+            <div class="footer-box">
+              
+            </div>
+        </div>
+    </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
